@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Elbe – Digitales Designstudio",
+  "description": "Klare digitale Produkte, Markenidentitäten und performante Websites aus Hamburg.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
