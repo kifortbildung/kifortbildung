@@ -1,3 +1,8 @@
+import heroStudioElbe from '../assets/images/hero_studio_elbe_1794923288427.jpg';
+import projectNordKaffee from '../assets/images/project_nord_kaffee_1794923288372.jpg';
+import projectAlsterMobilitaet from '../assets/images/project_alster_mobilitat_1794923291562.jpg';
+import projectHanseFinanz from '../assets/images/project_hanse_finanz_1794923289789.jpg';
+
 export type ProjectCategory = 'Alle' | 'Webdesign' | 'Plattformen';
 
 export interface StudioProject {
@@ -25,7 +30,7 @@ export interface ServiceItem {
 }
 
 export const HERO_IMAGE = {
-  src: '/src/assets/images/hero_studio_elbe_1794923288427.jpg',
+  src: heroStudioElbe,
   alt: 'Heller Besprechungsraum im Atelier Elbe in Hamburg mit Eichentisch und hohen Industriefenstern',
 };
 
@@ -75,7 +80,7 @@ export const PROJECTS: StudioProject[] = [
       'Neugestaltung des Direktvertriebs mit klarem Abo-Rechner und reduzierter Produktpräsentation.',
     metric: '+42 % Konversion',
     metricContext: 'in den ersten 4 Monaten nach Launch',
-    image: '/src/assets/images/project_nord_kaffee_1794923288372.jpg',
+    image: projectNordKaffee,
     imageAlt: 'Minimalistische weiße und kobaltblaue Kaffeebeutel auf hellem Kalkstein',
     deliverables: ['Markendesign', 'Shop-Architektur', 'Abo-Konfigurator'],
     challenge:
@@ -93,7 +98,7 @@ export const PROJECTS: StudioProject[] = [
       'Interaktive Flotten- und Probefahrtbuchung für gewerbliche Dienstrad-Leasingkunden.',
     metric: '0,8 s Ladezeit',
     metricContext: 'bei 1.400 monatlichen Probefahrt-Anfragen',
-    image: '/src/assets/images/project_alster_mobilitat_1794923291562.jpg',
+    image: projectAlsterMobilitaet,
     imageAlt: 'Dunkelgraues elektrisches Stadtfahrrad in einem modernen Beton-Pavillon',
     deliverables: ['Buchungsplattform', 'Standort-Suche', 'Designsystem'],
     challenge:
@@ -111,7 +116,7 @@ export const PROJECTS: StudioProject[] = [
       'Ruhiger redaktioneller Webauftritt inklusive Dokumenten-Archiv und Mandanten-Anfrage.',
     metric: '+64 % qualifizierte Anfragen',
     metricContext: 'über das strukturierte Erstgespräch-Formular',
-    image: '/src/assets/images/project_hanse_finanz_1794923289789.jpg',
+    image: projectHanseFinanz,
     imageAlt: 'Aufgeräumter Arbeitsplatz mit Laptop und gedrucktem Gestaltungsraster',
     deliverables: ['Informationsarchitektur', 'Redaktionelles Layout', 'Barrierefreiheit'],
     challenge:
